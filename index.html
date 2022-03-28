@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+              <meta charset="utf-8">          
+              <title>02/21 老師</title>   
+    </head>
+    <style>
+        .lego {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 25% 30% 30% 15%;
+            grid-gap: 20px;
+            grid-template-areas: 
+                "red red red red"
+                "green yellow yellow yellow"
+                "green yellow yellow yellow"
+                "blue blue blue blue";
+        }
+        .red {grid-area: red;
+            background-color: bisque;}
+        .yellow {grid-area: yellow;
+            background-color:floralwhite; }
+        .green {grid-area: green;
+            background-color:chartreuse ;}
+        .blue {grid-area: blue;
+            background-color:azure;}
+        
+    </style>
+	<body>
+        <div class="lego">
+            <div class="red">
+                <h1>110學年度套裝軟體-網頁設計作業<br>
+                HTML5+CSS3  </h1> 
+            </div>
+            <div class="yellow">
+                <h2>作者：資一甲 55號 郭德潤</h2>
+                <img src="image/myphoto.jpg">
+            </div>
+            <div class="green">
+                <h2>110學年下學習成果網頁</h2>
+                <ul>
+                    <li><a href="./index-0214.html" target="_blank">2022/02/14作業 </a></li>
+                </ul>
+                <hr>
+                <h2>110學年上學習成果網頁</h2>
+                <ul>
+                    <li><a href="./2021/index.htm" target="_blank">110學年上學習成果網頁 </a></li>
+                </ul>
+            </div>
+            <div class="blue">
+                <p>@ 2022-02-21 Ver1. by 老師</p> 
+            </div>       
+        
+        </div>
+	</body>
+</html>
